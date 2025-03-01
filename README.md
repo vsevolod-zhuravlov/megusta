@@ -1,0 +1,1 @@
+# MEGUSTA - powerful NFT auction platform
