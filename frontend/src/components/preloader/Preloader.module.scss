@@ -1,0 +1,19 @@
+@import "../../colors.scss";
+
+.loader {
+    width: 100%;
+    height: 100%;
+    background-color: $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper {
+    width: 130px;
+    height: auto;
+
+    .image {
+        width: 100%;
+    }
+}

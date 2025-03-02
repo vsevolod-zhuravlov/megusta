@@ -1,0 +1,59 @@
+@import "../../colors.scss";
+
+.active-auctions {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    padding: 85px 0 50px 0;
+    color: $black;
+
+    &__container {
+        flex-grow: 1;
+        width: 100%;
+        max-width: 1400px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0 28px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__tabs {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__content {
+        flex-grow: 1;
+        align-items: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+.select-dutch-button, .select-english-button, .select-sealed-button {
+    width: 32.7%;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border: 2px solid $black;
+    background-color: $white;
+    color: $black;
+
+    &.active {
+        background-color: $black;
+        color: $white;
+    }
+
+    &:hover {
+        color: $white;
+    }
+}

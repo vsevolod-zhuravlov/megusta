@@ -1,3 +1,5 @@
 {
-  "DutchAuctionManagerModule#DutchAuctionManager": "0x31f753b8391d13152783ba3fcf485Ec24c4913bb"
+  "DutchAuctionManagerModule#DutchAuctionManager": "0x9e9542749bb523FFC3db68990505446be49e568a",
+  "EnglishAuctionManagerModule#EnglishAuctionManager": "0xBf13B9A5a5c2f921a5805Edd73d41a6Ab79D1315",
+  "ERC20MockToken#ERC20MockToken": "0x004Cc8dc5465a7507BB5068CB50359A7196fE87E"
 }

@@ -1,0 +1,64 @@
+@import "../../colors.scss";
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    padding: 85px 0 50px 0;
+    color: $black;
+
+    &__container {
+        flex-grow: 1;
+        width: 100%;
+        max-width: 1400px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0 28px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__header {
+        padding: 20px;
+        border: 2px solid $black;
+        border-radius: 20px;
+
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__address {
+        font-size: 30px;
+    }
+
+    &__text, &__network {
+        font-size: 20px;
+    }
+
+    &__icon {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: $black;
+    }
+
+    &__content {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
